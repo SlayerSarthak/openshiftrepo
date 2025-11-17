@@ -8,7 +8,7 @@ import (
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello! This is a simple Go web server.\n")
-		fmt.Fprintf(w, "You can edit this text in the file anytime.\n")
+		fmt.Fprintf(w, "This is a change version of this file.\n")
 	})
 
 	fmt.Println("Server running on http://localhost:8080")
